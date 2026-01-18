@@ -184,6 +184,7 @@ html {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 3px;
+  cursor: pointer;
 }
 
 .main-content__description button:hover,
@@ -263,8 +264,11 @@ html {
   color: var(--Very-dark-blue);
 }
 
-.post__title:hover {
+.post__title:hover,
+.post__title:focus {
   color: var(--Soft-red);
+  cursor: pointer;
+  outline: none;
 }
 
 .post__description {
